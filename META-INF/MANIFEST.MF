@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JSON_to_JSON_Mapping
-Bundle-SymbolicName: JSON_to_JSON_Mapping; singleton:=true
-Bundle-Version: 1.0.1
+Bundle-SymbolicName: is-flow; singleton:=true
+Bundle-Version: 1.0.2
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
 SAP-RuntimeProfile: iflmap
@@ -33,5 +33,5 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.sap
  essor.idempotent.jdbc,org.osgi.service.blueprint;version="[1.0.0,2.0.0)
  "
 Origin-Bundle-Name: JSON_to_JSON_Mapping
-Origin-Bundle-SymbolicName: JSON_to_JSON_Mapping
+Origin-Bundle-SymbolicName: is-flow
 
